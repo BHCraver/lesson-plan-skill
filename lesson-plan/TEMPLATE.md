@@ -64,10 +64,10 @@ which file came from which module/chapter>
 - Where possible, tie it to something the learner already built.
 Use bullet lists, bold the term being defined, and inline math/code where it clarifies.>
 
-### What to Build        <!-- or "What to Ask Claude to Build"; or "No Code This Module" -->
+### What to Build        <!-- or "What to Ask the Agent to Build"; or "No Code This Module" -->
 
 <Concrete build steps, staged so each piece is understood before the next.
-Each step gets a copy-pasteable instruction to Claude Code in italics:>
+Each step gets a copy-pasteable instruction to the AI coding agent in italics:>
 
 **Suggested prompt:** *"Create <file> that does <precise spec>. Reference
 <concept> from this lesson plan. <constraints>."*
@@ -99,7 +99,7 @@ broken one looks like.>
 
 ## Module type variants
 
-- **Build module** — heavy "What to Ask Claude to Build", staged, each piece inspected.
+- **Build module** — heavy "What to Ask the Agent to Build", staged, each piece inspected.
 - **Concept module** — replace the build section with `### No Code This Module` and a set of questions (each with a hidden `<!-- answer -->`), plus reflection exercises that revisit existing code with new vocabulary.
 - **Experiment module** — a sweep or comparison: a thin script that runs variations, then heavy "After Running" analysis of the curves/results.
 - **Synthesis module** — capstone with a decision framework and design-document exercises; usually no new code.

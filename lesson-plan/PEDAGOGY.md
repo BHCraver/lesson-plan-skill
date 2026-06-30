@@ -37,7 +37,7 @@ State deep points as memorable one-liners: *"bias survives averaging; variance d
 
 ## 3. Suggested prompts (the AI-pair-programming engine)
 
-The learner directs Claude Code; they don't type the implementation. Every build
+The learner directs an AI coding agent; they don't type the implementation. Every build
 step ends with a copy-pasteable instruction in *italics*, specific enough to
 produce working code and to teach what a good prompt looks like:
 
@@ -94,7 +94,7 @@ Hunt for these. They convert abstract theory into recognition.
 Open project chapters with the contract (adapt to the topic):
 - **Before generating**: know what you want and why — Key Concepts prepare you to
   give good instructions and judge the output.
-- **After generating**: read every line; if you can't explain it, ask Claude to.
+- **After generating**: read every line; if you can't explain it, ask the agent to.
 - **Experimentation is the real teacher**: change a hyperparameter, remove a
   component, break something — that builds intuition writing-from-scratch can't.
 - **Prompting is a skill** that improves with practice.

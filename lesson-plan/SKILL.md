@@ -1,11 +1,11 @@
 ---
 name: lesson-plan
-description: Generate a hands-on, project-based lesson plan (one chapter file) that teaches a technical topic through AI-pair-programming — the learner directs Claude Code to build, then reads, experiments, and debugs to build deep intuition. Use when the user wants to create a lesson plan, learning curriculum, study plan, course chapter, or tutorial for a technical topic (programming, CS, ML, math), or says "teach me X", "make a lesson plan", "next chapter".
+description: Generate a hands-on, project-based lesson plan (one chapter file) that teaches a technical topic through AI-pair-programming — the learner directs an AI coding agent to build, then reads, experiments, and debugs to build deep intuition. Use when the user wants to create a lesson plan, learning curriculum, study plan, course chapter, or tutorial for a technical topic (programming, CS, ML, math), or says "teach me X", "make a lesson plan", "next chapter".
 ---
 
 # Lesson Plan
 
-Produce a lesson-plan chapter that teaches a technical topic by **directing Claude Code to build a real project**, then reading, experimenting, and debugging. The learning happens in the *experiments and exercises*, not in typing code. Intuition is the goal.
+Produce a lesson-plan chapter that teaches a technical topic by **directing an AI coding agent to build a real project**, then reading, experimenting, and debugging. The learning happens in the *experiments and exercises*, not in typing code. Intuition is the goal.
 
 Output: a single markdown file per chapter (e.g. `lesson_plan_chapter_N.md`).
 
@@ -34,7 +34,7 @@ If the learner is vague, ask follow-ups. A precise interview is the difference b
 Read [PEDAGOGY.md](PEDAGOGY.md) before drafting — it's the heart of the skill. The signatures:
 
 - **Intuition pumps** — every abstract concept gets a concrete analogy (the appraiser, the sandwich, the glowing afterimage).
-- **Suggested prompts** — copy-pasteable instructions to Claude Code in *italics*, so the learner practices directing the AI.
+- **Suggested prompts** — copy-pasteable instructions to the AI coding agent in *italics*, so the learner practices directing the AI.
 - **"Predict before running"** and **"break it on purpose"** exercises — operational knowledge beats reading knowledge.
 - **Hidden answers** in `<!-- HTML comments -->` after hard questions, so learners can self-check.
 - **Connect new theory to code already written** — "you built X without knowing it."
